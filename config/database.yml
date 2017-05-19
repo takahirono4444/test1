@@ -52,4 +52,4 @@ production:
   database: yumetest1_production
   username: yumetest1
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket: /tmp/mysql.sock
+  socket: /var/lib/mysql/mysql.sock
