@@ -1,8 +1,8 @@
-class AddColumnToProducts < ActiveRecord::Migration
+class AddColumnToproducts < ActiveRecord::Migration
   def change
       add_column :products, :user_id, :string#会員NO
       add_column :products, :sagyosyo_id, :string#作業所no
-      add_column :products, :product_id, :integer#商品no
+      add_column :products, :product_id, :string#商品no
       add_column :products, :name, :string#お客様名
       add_column :products, :name_rubi, :string#ふりがな
       add_column :products, :tel, :string
