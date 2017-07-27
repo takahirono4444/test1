@@ -54,6 +54,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
   gem 'nokogiri'
+  gem 'devise'
 end
 
 group :production do
